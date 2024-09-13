@@ -9,11 +9,11 @@
     <center>
         <h1>SignUp here !</h1>
         <form action="login.html">
-            <input type="text" placeholder="Username"><br><br>
-            <input type="text" placeholder="Email" pattern="[A-Za-z0-9._]+@[a-z]+\.[a-z]{2,4}"><br><br>
-            <input type="tel" placeholder="Phone Number" pattern="[0-9]{10}" title="It should contain 10 numbers"><br><br>
-            <input type="password" placeholder="Password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])[A-Za-z0-9!@#$%^&*]{8}" title="It should contain one uppercase,lower case,special character and number.It's length should be 8"><br><br>
-            <input type="password" placeholder="Confirm Password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])[A-Za-z0-9!@#$%^&*]{8}" title="Confrm password should be same as Password"><br><br>
+            <input type="text" placeholder="Username" required><br><br>
+            <input type="text" placeholder="Email" pattern="[A-Za-z0-9._]+@[a-z]+\.[a-z]{2,4}" required><br><br>
+            <input type="tel" placeholder="Phone Number" pattern="[0-9]{10}" title="It should contain 10 numbers" required><br><br>
+            <input type="password" placeholder="Password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])[A-Za-z0-9!@#$%^&*]{8}" title="It should contain one uppercase,lower case,special character and number.It's length should be 8" required><br><br>
+            <input type="password" placeholder="Confirm Password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])[A-Za-z0-9!@#$%^&*]{8}" title="Confrm password should be same as Password" required><br><br>
             <input type="submit" value="SignUp"><br>
         </form>
             <p>Already have an account!<a href="login.html"> Login</a></p>
